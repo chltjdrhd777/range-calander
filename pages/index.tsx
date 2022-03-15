@@ -1,11 +1,7 @@
 import type { NextPage } from "next";
 import css from "styled-jsx/css";
 
-const style = css`
-  * {
-    background-color: red;
-  }
-`;
+const style = css``;
 
 const Home: NextPage = () => {
   return (

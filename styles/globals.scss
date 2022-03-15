@@ -12,8 +12,10 @@ html {
 
 body {
   width: 360px;
-  height: 812px;
+  // height: 812px;
+  min-height: 100vh;
   margin: auto;
+  position: relative;
   font-size: 1.6rem;
   font-family: "Inter", "sans-serif";
   user-select: none;
@@ -64,4 +66,8 @@ input {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.__next {
+  width: 100%;
 }
